@@ -25,4 +25,3 @@ echo
 echo "Current Working Directory: $(pwd)"
 
 echo "======================================"
-```

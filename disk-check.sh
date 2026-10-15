@@ -57,4 +57,3 @@ else
     echo "OK: Disk usage is below the threshold."
     exit 0
 fi
-```

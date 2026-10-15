@@ -117,4 +117,3 @@ echo "Network diagnostic completed."
 log_message "Network diagnostic completed for $host"
 
 exit 0
-```
