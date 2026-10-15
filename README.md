@@ -76,6 +76,25 @@ Exit codes:
 * `1`: Disk usage reaches or exceeds the threshold, or an operational error occurs.
 * `2`: Invalid input.
 
+### Example: Check Disk Usage for a Specific Directory
+
+To check disk usage for your home directory with a warning threshold of 90%, run:
+
+```bash
+./disk-check.sh 90 /home
+```
+
+**Explanation:**
+
+* `90` — The disk usage threshold (90%).
+* `/home` — The directory or filesystem to check.
+
+**Expected behavior:**
+
+* If disk usage is below 90%, the script displays an `OK` message.
+* If disk usage is 90% or higher, the script displays a `WARNING` message.
+* The result is recorded in `logs/diagnostics.log`.
+
 ### 3. Network Diagnostics
 
 ```bash
