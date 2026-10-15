@@ -50,6 +50,7 @@ echo "======================================"
 echo "         NETWORK DIAGNOSTICS"
 echo "======================================"
 echo "Host: $host"
+echo "Diagnostic mode: DNS resolution and network connectivity"
 
 log_message "Starting network check for $host"
 
