@@ -1,0 +1,16 @@
+```gitignore
+# Generated diagnostic logs
+logs/*.log
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Secrets and private keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+```
